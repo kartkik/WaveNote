@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3F04420A2FD7E6ED001F4B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0441F42FD7E6EB001F4B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0441FB2FD7E6EB001F4B57;
+			remoteInfo = WaveNote;
+		};
+		3F0442142FD7E6ED001F4B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0441F42FD7E6EB001F4B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0441FB2FD7E6EB001F4B57;
+			remoteInfo = WaveNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0441FC2FD7E6EB001F4B57 /* WaveNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0442092FD7E6ED001F4B57 /* WaveNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0442132FD7E6ED001F4B57 /* WaveNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3F0442262FD7E6ED001F4B57 /* Exceptions for "WaveNote" folder in "WaveNote" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3F0441FB2FD7E6EB001F4B57 /* WaveNote */;
+		};
+		3F6CC9252FD81CDB00D55C11 /* Exceptions for "WaveNoteTests" folder in "WaveNote" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				WaveNoteTests.swift,
+			);
+			target = 3F0441FB2FD7E6EB001F4B57 /* WaveNote */;
+		};
+		3F6CC9262FD81CDB00D55C11 /* Exceptions for "WaveNoteTests" folder in "WaveNoteTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				WaveNoteTests.swift,
+			);
+			target = 3F0442082FD7E6ED001F4B57 /* WaveNoteTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3F0441FE2FD7E6EB001F4B57 /* WaveNote */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F0442262FD7E6ED001F4B57 /* Exceptions for "WaveNote" folder in "WaveNote" target */,
+			);
+			path = WaveNote;
+			sourceTree = "<group>";
+		};
+		3F0442162FD7E6ED001F4B57 /* WaveNoteUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WaveNoteUITests;
+			sourceTree = "<group>";
+		};
+		3F6CC9232FD81CDB00D55C11 /* WaveNoteTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F6CC9252FD81CDB00D55C11 /* Exceptions for "WaveNoteTests" folder in "WaveNote" target */,
+				3F6CC9262FD81CDB00D55C11 /* Exceptions for "WaveNoteTests" folder in "WaveNoteTests" target */,
+			);
+			path = WaveNoteTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0441F92FD7E6EB001F4B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0442062FD7E6ED001F4B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0442102FD7E6ED001F4B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0441F32FD7E6EB001F4B57 = {
+			isa = PBXGroup;
+			children = (
+				3F0441FE2FD7E6EB001F4B57 /* WaveNote */,
+				3F6CC9232FD81CDB00D55C11 /* WaveNoteTests */,
+				3F0442162FD7E6ED001F4B57 /* WaveNoteUITests */,
+				3F0441FD2FD7E6EB001F4B57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0441FD2FD7E6EB001F4B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0441FC2FD7E6EB001F4B57 /* WaveNote.app */,
+				3F0442092FD7E6ED001F4B57 /* WaveNoteTests.xctest */,
+				3F0442132FD7E6ED001F4B57 /* WaveNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0441FB2FD7E6EB001F4B57 /* WaveNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F04421D2FD7E6ED001F4B57 /* Build configuration list for PBXNativeTarget "WaveNote" */;
+			buildPhases = (
+				3F0441F82FD7E6EB001F4B57 /* Sources */,
+				3F0441F92FD7E6EB001F4B57 /* Frameworks */,
+				3F0441FA2FD7E6EB001F4B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3F0441FE2FD7E6EB001F4B57 /* WaveNote */,
+				3F6CC9232FD81CDB00D55C11 /* WaveNoteTests */,
+			);
+			name = WaveNote;
+			packageProductDependencies = (
+			);
+			productName = WaveNote;
+			productReference = 3F0441FC2FD7E6EB001F4B57 /* WaveNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0442082FD7E6ED001F4B57 /* WaveNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0442202FD7E6ED001F4B57 /* Build configuration list for PBXNativeTarget "WaveNoteTests" */;
+			buildPhases = (
+				3F0442052FD7E6ED001F4B57 /* Sources */,
+				3F0442062FD7E6ED001F4B57 /* Frameworks */,
+				3F0442072FD7E6ED001F4B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F04420B2FD7E6ED001F4B57 /* PBXTargetDependency */,
+			);
+			name = WaveNoteTests;
+			packageProductDependencies = (
+			);
+			productName = WaveNoteTests;
+			productReference = 3F0442092FD7E6ED001F4B57 /* WaveNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0442122FD7E6ED001F4B57 /* WaveNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0442232FD7E6ED001F4B57 /* Build configuration list for PBXNativeTarget "WaveNoteUITests" */;
+			buildPhases = (
+				3F04420F2FD7E6ED001F4B57 /* Sources */,
+				3F0442102FD7E6ED001F4B57 /* Frameworks */,
+				3F0442112FD7E6ED001F4B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0442152FD7E6ED001F4B57 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F0442162FD7E6ED001F4B57 /* WaveNoteUITests */,
+			);
+			name = WaveNoteUITests;
+			packageProductDependencies = (
+			);
+			productName = WaveNoteUITests;
+			productReference = 3F0442132FD7E6ED001F4B57 /* WaveNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0441F42FD7E6EB001F4B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					3F0441FB2FD7E6EB001F4B57 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					3F0442082FD7E6ED001F4B57 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 3F0441FB2FD7E6EB001F4B57;
+					};
+					3F0442122FD7E6ED001F4B57 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 3F0441FB2FD7E6EB001F4B57;
+					};
+				};
+			};
+			buildConfigurationList = 3F0441F72FD7E6EB001F4B57 /* Build configuration list for PBXProject "WaveNote" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0441F32FD7E6EB001F4B57;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3F0441FD2FD7E6EB001F4B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0441FB2FD7E6EB001F4B57 /* WaveNote */,
+				3F0442082FD7E6ED001F4B57 /* WaveNoteTests */,
+				3F0442122FD7E6ED001F4B57 /* WaveNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0441FA2FD7E6EB001F4B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0442072FD7E6ED001F4B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0442112FD7E6ED001F4B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0441F82FD7E6EB001F4B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0442052FD7E6ED001F4B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F04420F2FD7E6ED001F4B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F04420B2FD7E6ED001F4B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0441FB2FD7E6EB001F4B57 /* WaveNote */;
+			targetProxy = 3F04420A2FD7E6ED001F4B57 /* PBXContainerItemProxy */;
+		};
+		3F0442152FD7E6ED001F4B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0441FB2FD7E6EB001F4B57 /* WaveNote */;
+			targetProxy = 3F0442142FD7E6ED001F4B57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F04421B2FD7E6ED001F4B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F04421C2FD7E6ED001F4B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F04421E2FD7E6ED001F4B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SUHUCHSA8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaveNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WaveNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F04421F2FD7E6ED001F4B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SUHUCHSA8R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WaveNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WaveNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F0442212FD7E6ED001F4B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WaveNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaveNote";
+			};
+			name = Debug;
+		};
+		3F0442222FD7E6ED001F4B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WaveNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveNote.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WaveNote";
+			};
+			name = Release;
+		};
+		3F0442242FD7E6ED001F4B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WaveNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveNote;
+			};
+			name = Debug;
+		};
+		3F0442252FD7E6ED001F4B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.WaveNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WaveNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0441F72FD7E6EB001F4B57 /* Build configuration list for PBXProject "WaveNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F04421B2FD7E6ED001F4B57 /* Debug */,
+				3F04421C2FD7E6ED001F4B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F04421D2FD7E6ED001F4B57 /* Build configuration list for PBXNativeTarget "WaveNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F04421E2FD7E6ED001F4B57 /* Debug */,
+				3F04421F2FD7E6ED001F4B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0442202FD7E6ED001F4B57 /* Build configuration list for PBXNativeTarget "WaveNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0442212FD7E6ED001F4B57 /* Debug */,
+				3F0442222FD7E6ED001F4B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0442232FD7E6ED001F4B57 /* Build configuration list for PBXNativeTarget "WaveNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0442242FD7E6ED001F4B57 /* Debug */,
+				3F0442252FD7E6ED001F4B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0441F42FD7E6EB001F4B57 /* Project object */;
+}
